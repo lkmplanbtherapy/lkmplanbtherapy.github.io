@@ -1,0 +1,219 @@
+/* Site Wide Section */
+
+body {
+	background: #d87f26;
+}
+
+p {
+	color: white;
+	font-size: 29px;
+	font-weight: bold;
+}
+
+#background { /* Site Container */
+	box-shadow:inset 0px 0px 20px 10px white, 0 0 30px 20px #3F250B;
+	border-radius: 5%;
+	width: 90vw;
+	height: 90vh;
+	margin: auto;
+	display: table;
+}
+
+#bridge {  /* background image */
+	height: 90vh;
+	width: 90vw;
+	border-radius: 5%;
+	position: relative;
+	z-index: -1;
+	margin: auto;
+}
+
+
+#hide {  /* For 3 lines for mobile version */
+	height: 40px;
+	width: 95%;
+	text-align: center;
+	background-color: #d87f26;
+	border-radius: 5%;
+	margin: auto;
+}
+
+#hide img {
+	height: 40px;
+	width: 60px;
+}
+
+
+
+
+/*Body-Container Section */
+
+#content {
+	position: absolute;
+	width: 88vw;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	top: 0;
+	bottom : 0;
+	height: 85vh;
+	display: block;
+	overflow: hidden;
+}
+
+
+
+
+/* Body-Navi Section */
+
+#left { /* change this for mobile */
+	height: 55%;
+	width: 95%;
+	display: none;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	scrollbar-base-color: green;  /* Scrollbar settings for IE */
+	scrollbar-base-color: green;  /* Scrollbar settings for IE */
+	scrollbar-track-color: rgba(56, 40, 26, 0.5);  /* Scrollbar settings for IE */
+}
+
+#left::-webkit-scrollbar {  /* Scrollbar settings for Chrome Safari IOS Android */
+	width: 12px;
+	height: 75vh;
+}
+
+#left::-webkit-scrollbar-track { /* Scrollbar settings for Chrome Safari IOS Android */
+	border-radius: 10px;
+	background-color: rgba(56, 40, 26, 0.5);
+}
+
+#left::-webkit-scrollbar-thumb { /* Scrollbar settings for Chrome Safari IOS Android */
+	background-color: green;
+	border-radius: 10px;
+}
+
+#navi {
+	height: 100%;
+	width: 50%;
+	float: left;
+	position: relative;
+	display: block;
+	margin: auto;
+	margin-left: 3%;
+	margin-right: 4%;
+}
+
+#naviButton {
+	height: 40px;
+	width: 100%;
+	position: absolute;
+	box-shadow: 0 0 10px 7px #d87f26;
+	left: 0;
+	z-index: -1;
+}
+
+#navilink {
+	position: relative;
+	height: 40px;
+	width: 90%;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	text-align: center;
+	margin-right: auto;
+	line-height: 35px;
+}
+
+#SMButton {
+	width: 20%;
+	height: 20%;
+	margin-top: 30px;
+}
+
+
+
+
+/* Body-Main Section */
+
+#main { /* change for mobile */
+	width: 95%;
+	height: 80vh;
+	display: block;
+	position: relative;
+	margin: auto;
+	margin-left: 2%;
+	background-color: rgba(89, 65, 42, 0.5);
+	overflow-x: hidden;
+	overflow-y: scroll;
+	padding: 1%;
+	padding-bottom: 0px;
+	border-radius: 5%;
+	scrollbar-base-color: green;  /* Scrollbar settings for IE */
+	scrollbar-base-color: green;  /* Scrollbar settings for IE */
+	scrollbar-track-color: rgba(56, 40, 26, 0.5);  /* Scrollbar settings for IE */
+}
+
+#title {
+	font-size: 50px;
+	color: #ae2de3;
+	font-weight: bold;
+	text-align: center;
+}
+
+#Lynda { /* body section image settings */
+	width: 100%;
+	text-align: center;
+}
+
+#Lynda img { /* body section image settings */
+	width: 30%;	
+	height: 300px;
+	opacity: 0.8;
+}
+
+#About { /* For About Plan B Page List headers */
+	color: #d87d26;
+	font-size: 29px;
+	font-weight: bold;
+}
+
+#map {
+	display: block;
+	margin-bottom: 30px;
+	opacity: 0.8;
+}
+
+#main::-webkit-scrollbar {  /* Scrollbar settings for Chrome Safari IOS Android */
+	width: 12px;
+	height: 75vh;
+}
+
+#main::-webkit-scrollbar-track { /* Scrollbar settings for Chrome Safari IOS Android */
+	border-radius: 10px;
+	background-color: rgba(56, 40, 26, 0.5);
+}
+
+#main::-webkit-scrollbar-thumb { /* Scrollbar settings for Chrome Safari IOS Android */
+	background-color: green;
+	border-radius: 10px;
+}
+
+
+
+
+/* Footer Section */
+
+#DFP {
+	color: green;
+}
+
+footer {
+	text-align: center;
+}
