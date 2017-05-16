@@ -131,7 +131,6 @@ h4 {
 	overflow-x: hidden;
 	overflow-y: hidden;
 	padding: 2%;
-
 	float: left;
 }
 
@@ -174,7 +173,7 @@ h4 {
 	padding-right: 2%;
 	padding-bottom: 2%;
 	background-color: rgba(69,168,84,0.5);
-	float: left;
+
 }
 
 #homePageServ {
@@ -184,6 +183,7 @@ h4 {
 	background-color: rgba(69,168,84,0.5);
 	width: 97%;
 	text-align:center;
+	
 }
 
 #homeTitle {
