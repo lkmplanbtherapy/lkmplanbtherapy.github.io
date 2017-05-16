@@ -168,6 +168,14 @@ h4 {
 	float: left;
 }
 
+#homePageAbout {
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	background-color: rgba(69,168,84,0.5);
+	float: left;
+}
+
 #homePageServ {
 	padding-left: 2%;
 	padding-right: 2%;
