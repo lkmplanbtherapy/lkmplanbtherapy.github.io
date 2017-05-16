@@ -31,7 +31,7 @@ p, li {
 }
 
 h4 {
-	color: white;
+	color: yellow;
 	line-height: 5px;
 	font-size: 18px;
 }
@@ -142,16 +142,15 @@ h4 {
 
 #Lynda { /* body section image settings */
 	width: 100%;
-	margin-top:1%;
 	text-align: center;
 }
 
-#Lynda img { /* body section image settings */
+#Lyndapic { /* body section image settings */
 	width: 30%;	
-	min-width: 300px;
-	height: 300px;
-	padding-left: 3%;
-	padding-right: 3%;
+	height: 30%;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+
 }
 
 #About { /* For About Plan B Page List headers */
@@ -190,7 +189,28 @@ h4 {
 	text-align: center;
 }
 
+#homePageEmail {
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	background-color: rgba(69,168,84,0.5);
+	float: left;
+	width: 97%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
 
+#emailText {
+	display: block;
+	width: 100%;
+	float: left;
+	padding-right: 2%;
+}
+
+iframe {
+	width: 100%;
+}
 
 
 /* Footer Section */
