@@ -54,10 +54,10 @@ h4 {
 
 #content {
 	box-shadow:inset 0px 0px 30px 20px #BC9CFF, 0 0 30px 20px #563B8E;
-	background: -webkit-linear-gradient(#9370DB, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#9370DB, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#9370DB, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#9370DB, white); /* Standard syntax */
+	background: -webkit-linear-gradient(#5445A8, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#5445A8, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#5445A8, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#5445A8, white); /* Standard syntax */
 	position: relative;
 	width: 95%;
 	margin-left: auto;
